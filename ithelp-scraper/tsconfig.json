@@ -1,0 +1,9 @@
+{
+  "extends": ["@tsconfig/node22/tsconfig.json"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable"],
+    "strictNullChecks": true,
+    "module": "es2020",
+    "moduleResolution": "bundler"
+  }
+}
