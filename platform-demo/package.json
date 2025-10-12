@@ -1,0 +1,25 @@
+{
+  "name": "platform-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.2",
+  "dependencies": {
+    "@effect/platform": "^0.92.1",
+    "@effect/platform-browser": "^0.72.0",
+    "@effect/platform-node": "^0.98.3",
+    "effect": "^3.18.4"
+  },
+  "devDependencies": {
+    "@tsconfig/node22": "^22.0.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.9"
+  }
+}
